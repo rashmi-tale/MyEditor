@@ -1,0 +1,78 @@
+.container {
+  padding: 50px;
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.input-container textarea {
+  margin-top: 5px;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input-container input {
+   margin-top: 5px;
+   border: none;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+.container button {
+  border: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+}
+
+.card {
+  background-color: #fff;
+  width: 500px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit {
+  font-size: 25px;
+  position:absolute;
+  right: 10px;
+  background-color: #dcdcdc;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  align-self: center;
+}
+
+video {
+  object-fit: contain;
+  align-self: center;
+}
+
+.content {
+  width: 90%;
+  margin-bottom: 10px;
+}
